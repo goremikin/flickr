@@ -1,0 +1,21 @@
+.fl-image-view {
+    .thumb-wrap {
+        cursor: pointer;
+        float: left;
+        padding: 5px;
+        
+        .thumb-title {
+            overflow: hidden;
+            white-space: nowrap;
+            text: {
+                align: center;
+                overflow: ellipsis;
+            } 
+            width: 150px;
+            height: 20px;
+        }
+    }
+    .x-item-over {
+        background-color: #efefef;
+    }
+}
